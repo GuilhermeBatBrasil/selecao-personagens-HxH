@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto HxH - Semana do Zero ao Progamador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./SRC/CSS/reset.css">
+    <link rel="stylesheet" href="./SRC/CSS/estilos.css">
+    <link rel="stylesheet" href="./SRC/CSS/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho"> 
+        <img class="logo" src="./SRC/imghxh/logo_resized.png" alt="Logo HxH">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="gon" data-name="gon" data-description="Gon é um um garoto simples e amigável que está em busca de uma aventura. Ele não é bom em matemática. Gon, por ter passado muito tempo em locais selvagens na infância, é capaz de lidar bem com animais.">
+                    <img src="./SRC/imghxh/gon.jpg" alt="personagem gon">
+                </li>
+                <li class="personagem" id="killua" data-name="killua" data-description="Killua tem o Nen de Transformação, assim sendo ele tem mais eficiência em mudar a forma de sua aura.">
+                    <img src="./SRC/imghxh/killua.jpg" alt="personagem killua">
+                </li>
+                <li class="personagem" id="kurapika" data-name="kurapika" data-description="Kurapika é um materializador, um usuário de Nen que pode criar objetos de acordo com a sua imaginação, mas ele se torna um especialista quando seus olhos ficam vermelhos.">
+                    <img src="./SRC/imghxh/kurapika.jpg" alt="personagem kurapika">
+                </li>
+                <li class="personagem" id="leorio" data-name="leorio" data-description="Devido ao adiamento de seu treinamento devido à inscrição na universidade, quando conheceu Gon e Killua na cidade de Nova york, ele podia usar apenas Ten e não sabia da existência de outras técnicas. ">
+                    <img src="./SRC/imghxh/leorio.jpg" alt="personagem leorio">
+                </li>
+                <li class="personagem" id="hisoka" data-name="hisoka" data-description="Hisoka tem todos os benefícios concedidos por seu status como Hunter. Notório por sua graciosa, cruel e enganadora capacidade de luta, Hisoka provou ser um guerreiro mortal.">
+                    <img src="./SRC/imghxh/hisoka.jpg" alt="personagem hisoka">
+                </li>
+                <li class="personagem" id="chrollo" data-name="chrollo" data-description="Sua principal habilidade é roubar habilidades de outros e armazenar em um livro que ele materializa, chamado Caçador de Habilidades. A vítima do roubo não consegue usar mais sua habilidade.">
+                    <img src="./SRC/imghxh/chrollo.jpg" alt="personagem chrollo">
+                </li>
+                <li class="personagem" id="netero" data-name="netero" data-description="Netero parece ser um velho indefeso, mas está em surpreendentemente forma muscular para sua idade. Dedicou sua vida às artes marciais e a meditação">
+                    <img src="./SRC/imghxh/netero.jpg" alt="personagem netero">
+                </li>
+                <li class="personagem" id="meruen" data-name="meruen" data-description="Apesar de ser recém-nascido, Meruem é a Formiga Quimera mais poderosa, e o personagem mais poderoso a ser apresentado na série até agora, bem como um dos mais inteligentes. Nascido como a última arma biológica, seu poder físico só é acompanhado por um intelecto sem paralelo">
+                    <img src="./SRC/imghxh/meruen.jpg" alt="personagem meruen">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./SRC/imghxh/gon.png" alt="personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem"> Gon </h2>
+                <p class="descricao-personagem" id="descricao-personagem"> Gon é um um garoto simples e amigável que está em busca de uma aventura. Ele não é bom em matemática. Gon, por ter passado muito tempo em locais selvagens na infância, é capaz de lidar bem com animais.</p>
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./SRC/js/index.js"></script>
+</body>
+
+</html>
